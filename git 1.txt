@@ -1,0 +1,13 @@
+Key characteristics of a Centralized Version Control System include:
+
+Central Repository: In a CVCS, there is a central server or repository where all project files and their version history are stored. This central repository is usually located on a network server or a dedicated version control server.
+
+Check-out/Check-in: Developers must "check out" files from the central repository before they can make changes to them. When a file is checked out, it is locked for exclusive editing by the developer who checked it out. After making changes, the developer "checks in" or "commits" the file back to the central repository, making it available to others.
+
+Version History: The central repository maintains a complete history of all changes made to files. This history includes information about who made each change, when it was made, and a description of the changes.
+
+Concurrency Control: CVCS systems typically include mechanisms to prevent conflicts when multiple developers attempt to check out and modify the same file simultaneously. Locking the file while it's checked out is one way to achieve this.
+
+Network Dependency: To perform version control operations (check out, check in, view history, etc.), developers need a network connection to the central repository. This network dependency can be a limitation in distributed or remote development scenarios.
+
+Collaboration: Developers can collaborate by sharing changes through the central repository. They can see each other's changes, resolve conflicts, and coordinate their work through the central server.
